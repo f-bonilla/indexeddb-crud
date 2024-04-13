@@ -6,7 +6,7 @@ const i18nConfig = async language => {
     lng: language,
     debug: false,
     backend: {
-      loadPath: 'assets/i18n/{{lng}}.json',
+      loadPath: '/assets/i18n/{{lng}}.json',
     },
     supportedLngs: ['es', 'en'],
     nonExplicitSupportedLngs: true,
