@@ -1,0 +1,19 @@
+{
+  "common": {
+    "all_fe": "All",
+    "all_ma": "All",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Send",
+    "required": "This field is required.",
+    "create": "Create",
+    "update": "Update",
+    "delete": "Delete"
+  },
+  "header": "IndexedDB manager",
+  "entity-manager": {
+    "db": "Database",
+    "store": "Store",
+    "field": "Field"
+  }
+}
