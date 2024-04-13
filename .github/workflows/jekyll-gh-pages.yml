@@ -36,15 +36,13 @@ jobs:
           cd __temp
           npm install
           npm run build
-          mv ./dist/* ../
+          cp -r ./dist/* ../
       
       - name: Remove __temp folder
         run: rm -rf __temp      
 
-      - name: TRACE files in ./assets
-        run: ls -la -R ./assets
-        - name: TRACE files in ./assets/json
-        run: ls -la -R ./assets/json
+      #- name: TRACE files in ./
+      #  run: ls -la -R ./
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
