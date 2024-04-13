@@ -1,0 +1,19 @@
+{
+  "common": {
+    "all_fe": "Todas",
+    "all_ma": "Todos",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "submit": "Enviar",
+    "required": "Este campo es obligatorio",
+    "create": "Crear",
+    "update": "Actualizar",
+    "delete": "Borrar"
+  },
+  "header": "Administrador de IndexedDB",
+  "entity-manager": {
+    "db": "Base de datos",
+    "store": "Almacen",
+    "field": "Campo"
+  }
+}
