@@ -54,7 +54,7 @@ class EntityCreator extends LitElement {
   submitHandler(e) {
     e.preventDefault();
     const formData = new FormData(e.target);
-    const newEntityName = formData.get('inputText') || null;
+    const newEntityName = formData.get('inputText').trim() || null;
     if (!newEntityName) return;
     if (e.submitter.value === 'create' || e.submitter.value === 'delete')
       this.shadowRoot.querySelector('#inputText').value = '';
