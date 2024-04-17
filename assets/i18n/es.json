@@ -11,6 +11,7 @@
     "delete": "Borrar"
   },
   "header": "Administrador de IndexedDB",
+  "dev": "Pendiente de integrar la funcionalidad que gestiona las bases de datos.",
   "entity-manager": {
     "db": "Base de datos",
     "store": "Almacen",

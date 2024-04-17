@@ -45,6 +45,7 @@ class Header extends LitElement {
       <header>
         <h1>${i18next.t('header')} (dev)</h1>
         <bl-language-menu></bl-language-menu>
+        <em><small>${i18next.t("dev")}</small></em>
       </header>
     `;
   }

@@ -11,6 +11,7 @@
     "delete": "Delete"
   },
   "header": "IndexedDB manager",
+  "dev": "Pending integration of the functionality that manages the databases.",
   "entity-manager": {
     "db": "Database",
     "store": "Store",
